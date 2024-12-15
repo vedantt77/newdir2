@@ -52,7 +52,7 @@ export function CountdownTimer() {
         <p className="text-muted-foreground">
           We add new startups daily - {' '}
           <a 
-            href="#" 
+            href="https://tally.so/r/mV92zJ" 
             className="text-primary hover:underline font-medium"
           >
             submit

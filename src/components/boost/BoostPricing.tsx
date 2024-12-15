@@ -20,34 +20,34 @@ interface PricingPlan {
 const pricingPlans: PricingPlan[] = [
   {
     name: 'Basic Boost',
-    price: 99,
+    price: 19,
     period: 'weekly',
     badge: { text: 'Most Popular', variant: 'default' },
     features: [
-      'Featured listing for 30 days',
-      'Newsletter mention',
-      'Social media promotion'
+      'Featured listing for 7 days',
+      '1x Newsletter mention',
+      'verified checkmark'
     ],
     buttonText: 'Get Started',
-    buttonLink: 'https://example.com/basic-boost'
+    buttonLink: 'mailto:contact@startups.ad'
   },
   {
     name: 'Pro Boost',
-    price: 199,
+    price: 79,
     period: 'monthly',
     badge: { text: 'Best Value', variant: 'secondary' },
     features: [
-      'All Basic features',
+      'Featured listing for 30 days',
       'Priority placement',
-      'Detailed analytics',
-      'Featured case study'
+      '2x Newsletter mention',
+      'Forever verified checkmark'
     ],
     highlighted: true,
     buttonText: 'Upgrade to Pro',
-    buttonLink: 'https://example.com/pro-boost'
+    buttonLink: 'mailto:contact@startups.ad'
   },
   {
-    name: 'Enterprise',
+    name: 'Custom',
     price: 'Custom',
     period: 'annually',
     badge: { text: 'Contact Us', variant: 'outline' },
@@ -57,7 +57,7 @@ const pricingPlans: PricingPlan[] = [
       'Dedicated support'
     ],
     buttonText: 'Contact Sales',
-    buttonLink: 'mailto:sales@example.com'
+    buttonLink: 'mailto:contact@startups.ad'
   }
 ];
 

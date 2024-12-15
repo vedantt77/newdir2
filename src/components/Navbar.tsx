@@ -19,7 +19,7 @@ export function Navbar() {
               Boost
             </Link>
             <Link
-              to="https://saasdirectories.fyi"
+              to="https://tally.so/r/mV92zJ"
               className="px-4 py-2 text-foreground font-medium rounded-lg border border-foreground"
             >
               + Submit

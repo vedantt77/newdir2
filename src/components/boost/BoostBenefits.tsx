@@ -1,22 +1,28 @@
 import { Card } from '@/components/ui/card';
-import { Users, BarChart2, Sparkles } from 'lucide-react';
+import { Users, ChartNoAxesCombined, BadgeCheck, Mails  } from 'lucide-react';
 
 const benefits = [
   {
     icon: Users,
-    title: '50k+ Monthly Visitors',
+    title: '1000s of active users',
     description: 'Reach a highly engaged audience of entrepreneurs and investors'
   },
   {
-    icon: BarChart2,
+    icon: ChartNoAxesCombined,
     title: 'Premium Exposure',
-    description: 'Featured placement in our directory and newsletter'
+    description: 'Featured placement in Homepage and all startup details page '
   },
   {
-    icon: Sparkles,
+    icon: BadgeCheck,
     title: 'Verified Status',
     description: 'Stand out with our verified startup badge'
+  },
+  {
+    icon: Mails,
+    title: 'Newsletter Mention',
+    description: 'Get 2x mention in our newsletter which is read by 1000s of Indiehackers/founders'
   }
+  
 ];
 
 export function BoostBenefits() {
